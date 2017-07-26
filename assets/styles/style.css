@@ -3,6 +3,8 @@
 	font-family: 'Indie Flower', cursive;
 	margin: 0 0;
 	padding: 0 0;
+	text-decoration: none;
+	color: #e0dfdc;
 }
 
 html {
@@ -53,6 +55,7 @@ h2 {
 	text-align: center;
 	position: relative;
 	top: 170px;
+	margin-bottom: 100px;
 }
 
 input {
@@ -64,7 +67,7 @@ input {
 	background-color: #222;
 	border: none;
 	outline: none;
-	color: #fff;
+	color: #e0dfdc;
 }
 
 .btn-search {
@@ -81,4 +84,17 @@ input {
 	border: none;
 	outline: none;
 	cursor: pointer;
+}
+
+.article-block {
+	display: flex;
+	justify-content: space-around;
+}
+
+.article-block article {
+	width: 30%;
+	background-color: #222;
+	color:#e0dfdc;
+	font-size: 20pt;
+	border-radius: 5px;
 }
